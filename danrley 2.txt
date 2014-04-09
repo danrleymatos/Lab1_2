@@ -1,0 +1,3 @@
+questao 2
+
+o programa ler e escreve o arquivo.
