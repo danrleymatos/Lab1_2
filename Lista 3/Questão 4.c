@@ -1,14 +1,16 @@
-//4º
-#include <stdio.h>
-void multiplo3(){
-	int i=0,j=1;
-	while (i!=5){
-		i=i++;
-		printf("%d ",3*i);	
-	}
-	return;
+# include <stdio.h>
+
+int multiplos_3(){
+    int count = 0, testador = 0;
+    while (count < 5){
+        ++testador;
+        if (testador % 3 == 0){
+            printf("%d \n",testador);
+            ++count;
+        }
+    }
 }
-int main(){
-	multiplo3();
-	return(0);
+
+void main(){
+    multiplos_3();
 }
